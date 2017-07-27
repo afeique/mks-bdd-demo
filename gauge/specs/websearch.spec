@@ -25,12 +25,12 @@ In this scenario, the user visits google.com and sees: the google logo (img), a 
 * Look for "Google Search Button"
 
 
-## User searches using google.com
+## User searches for something using google.com
 
 Tags: google search
 
 In this scenario, the user navigates to google.com and performs a few searches.
 
 * Enter <search_terms> into "Google Search Field"
-* Click "Google Search Icon Button"
+* Click "Google Search Button"
 * "Google Result Stats" appears within "5" seconds

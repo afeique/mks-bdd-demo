@@ -1,6 +1,10 @@
 {
-	"Flags": {
-		"-tags": "websearch \u0026 visit google"
-	},
-	"FailedItems": []
+	"Args": [
+		"run",
+		"--tags",
+		"websearch"
+	],
+	"FailedItems": [
+		"specs\\websearch.spec:28"
+	]
 }

@@ -2292,3 +2292,57 @@
 10:59:53.717 Sending API response: messageType:GetStepValueResponse messageId:245 stepValueResponse:<stepValue:<stepValue:"Enter {} into {}" parameterizedStepValue:"Enter <data> into <element>" parameters:"data" parameters:"element" > > 
 10:59:53.718 Api Request Received: messageType:GetStepValueRequest messageId:200 stepValueRequest:<stepText:"Click <element>" > 
 10:59:53.718 Sending API response: messageType:GetStepValueResponse messageId:200 stepValueResponse:<stepValue:<stepValue:"Click {}" parameterizedStepValue:"Click <element>" parameters:"element" > > 
+08:33:10.592 Api Request Received: messageType:GetStepValueRequest messageId:90 stepValueRequest:<stepText:"The word <word> has <number> vowels." > 
+08:33:10.598 Sending API response: messageType:GetStepValueResponse messageId:90 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <number> vowels." parameters:"word" parameters:"number" > > 
+08:33:10.599 Api Request Received: messageType:GetStepValueRequest messageId:65 stepValueRequest:<stepText:"Vowels in English language are <given_vowels>." > 
+08:33:10.599 Sending API response: messageType:GetStepValueResponse messageId:65 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <given_vowels>." parameters:"given_vowels" > > 
+08:33:10.600 Api Request Received: messageType:GetStepValueRequest messageId:225 stepValueRequest:<stepText:"Almost all words have vowels <table>" > 
+08:33:10.600 Sending API response: messageType:GetStepValueResponse messageId:225 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+08:34:01.143 Api Request Received: messageType:GetStepValueRequest messageId:249 stepValueRequest:<stepText:"The word <word> has <number> vowels." > 
+08:34:01.143 Sending API response: messageType:GetStepValueResponse messageId:249 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <number> vowels." parameters:"word" parameters:"number" > > 
+08:34:01.144 Api Request Received: messageType:GetStepValueRequest messageId:108 stepValueRequest:<stepText:"Vowels in English language are <given_vowels>." > 
+08:34:01.144 Sending API response: messageType:GetStepValueResponse messageId:108 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <given_vowels>." parameters:"given_vowels" > > 
+08:34:01.145 Api Request Received: messageType:GetStepValueRequest messageId:131 stepValueRequest:<stepText:"Almost all words have vowels <table>" > 
+08:34:01.145 Sending API response: messageType:GetStepValueResponse messageId:131 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+08:34:01.332 Api Request Received: messageType:GetStepValueRequest messageId:222 stepValueRequest:<stepText:"Visit <url>" > 
+08:34:01.332 Sending API response: messageType:GetStepValueResponse messageId:222 stepValueResponse:<stepValue:<stepValue:"Visit {}" parameterizedStepValue:"Visit <url>" parameters:"url" > > 
+08:34:01.333 Api Request Received: messageType:GetStepValueRequest messageId:158 stepValueRequest:<stepText:"Look for <element>" > 
+08:34:01.333 Sending API response: messageType:GetStepValueResponse messageId:158 stepValueResponse:<stepValue:<stepValue:"Look for {}" parameterizedStepValue:"Look for <element>" parameters:"element" > > 
+08:34:01.334 Api Request Received: messageType:GetStepValueRequest messageId:240 stepValueRequest:<stepText:"<element> appears within <wait_time> seconds" > 
+08:34:01.334 Sending API response: messageType:GetStepValueResponse messageId:240 stepValueResponse:<stepValue:<stepValue:"{} appears within {} seconds" parameterizedStepValue:"<element> appears within <wait_time> seconds" parameters:"element" parameters:"wait_time" > > 
+08:34:01.334 Api Request Received: messageType:GetStepValueRequest messageId:132 stepValueRequest:<stepText:"Enter <data> into <element>" > 
+08:34:01.335 Sending API response: messageType:GetStepValueResponse messageId:132 stepValueResponse:<stepValue:<stepValue:"Enter {} into {}" parameterizedStepValue:"Enter <data> into <element>" parameters:"data" parameters:"element" > > 
+08:34:01.335 Api Request Received: messageType:GetStepValueRequest messageId:7 stepValueRequest:<stepText:"Click <element>" > 
+08:34:01.335 Sending API response: messageType:GetStepValueResponse messageId:7 stepValueResponse:<stepValue:<stepValue:"Click {}" parameterizedStepValue:"Click <element>" parameters:"element" > > 
+08:34:39.614 Api Request Received: messageType:GetStepValueRequest messageId:163 stepValueRequest:<stepText:"The word <word> has <number> vowels." > 
+08:34:39.614 Sending API response: messageType:GetStepValueResponse messageId:163 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <number> vowels." parameters:"word" parameters:"number" > > 
+08:34:39.615 Api Request Received: messageType:GetStepValueRequest messageId:70 stepValueRequest:<stepText:"Vowels in English language are <given_vowels>." > 
+08:34:39.615 Sending API response: messageType:GetStepValueResponse messageId:70 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <given_vowels>." parameters:"given_vowels" > > 
+08:34:39.616 Api Request Received: messageType:GetStepValueRequest messageId:232 stepValueRequest:<stepText:"Almost all words have vowels <table>" > 
+08:34:39.616 Sending API response: messageType:GetStepValueResponse messageId:232 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+08:34:39.682 Api Request Received: messageType:GetStepValueRequest messageId:108 stepValueRequest:<stepText:"Visit <url>" > 
+08:34:39.683 Sending API response: messageType:GetStepValueResponse messageId:108 stepValueResponse:<stepValue:<stepValue:"Visit {}" parameterizedStepValue:"Visit <url>" parameters:"url" > > 
+08:34:39.683 Api Request Received: messageType:GetStepValueRequest messageId:65 stepValueRequest:<stepText:"Look for <element>" > 
+08:34:39.684 Sending API response: messageType:GetStepValueResponse messageId:65 stepValueResponse:<stepValue:<stepValue:"Look for {}" parameterizedStepValue:"Look for <element>" parameters:"element" > > 
+08:34:39.684 Api Request Received: messageType:GetStepValueRequest messageId:201 stepValueRequest:<stepText:"<element> appears within <wait_time> seconds" > 
+08:34:39.684 Sending API response: messageType:GetStepValueResponse messageId:201 stepValueResponse:<stepValue:<stepValue:"{} appears within {} seconds" parameterizedStepValue:"<element> appears within <wait_time> seconds" parameters:"element" parameters:"wait_time" > > 
+08:34:39.685 Api Request Received: messageType:GetStepValueRequest messageId:3 stepValueRequest:<stepText:"Enter <data> into <element>" > 
+08:34:39.685 Sending API response: messageType:GetStepValueResponse messageId:3 stepValueResponse:<stepValue:<stepValue:"Enter {} into {}" parameterizedStepValue:"Enter <data> into <element>" parameters:"data" parameters:"element" > > 
+08:34:39.686 Api Request Received: messageType:GetStepValueRequest messageId:73 stepValueRequest:<stepText:"Click <element>" > 
+08:34:39.686 Sending API response: messageType:GetStepValueResponse messageId:73 stepValueResponse:<stepValue:<stepValue:"Click {}" parameterizedStepValue:"Click <element>" parameters:"element" > > 
+08:39:25.224 Api Request Received: messageType:GetStepValueRequest messageId:143 stepValueRequest:<stepText:"The word <word> has <number> vowels." > 
+08:39:25.225 Sending API response: messageType:GetStepValueResponse messageId:143 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <number> vowels." parameters:"word" parameters:"number" > > 
+08:39:25.225 Api Request Received: messageType:GetStepValueRequest messageId:163 stepValueRequest:<stepText:"Vowels in English language are <given_vowels>." > 
+08:39:25.225 Sending API response: messageType:GetStepValueResponse messageId:163 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <given_vowels>." parameters:"given_vowels" > > 
+08:39:25.226 Api Request Received: messageType:GetStepValueRequest messageId:66 stepValueRequest:<stepText:"Almost all words have vowels <table>" > 
+08:39:25.226 Sending API response: messageType:GetStepValueResponse messageId:66 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+08:39:25.298 Api Request Received: messageType:GetStepValueRequest messageId:49 stepValueRequest:<stepText:"Visit <url>" > 
+08:39:25.298 Sending API response: messageType:GetStepValueResponse messageId:49 stepValueResponse:<stepValue:<stepValue:"Visit {}" parameterizedStepValue:"Visit <url>" parameters:"url" > > 
+08:39:25.299 Api Request Received: messageType:GetStepValueRequest messageId:74 stepValueRequest:<stepText:"Look for <element>" > 
+08:39:25.299 Sending API response: messageType:GetStepValueResponse messageId:74 stepValueResponse:<stepValue:<stepValue:"Look for {}" parameterizedStepValue:"Look for <element>" parameters:"element" > > 
+08:39:25.300 Api Request Received: messageType:GetStepValueRequest messageId:222 stepValueRequest:<stepText:"<element> appears within <wait_time> seconds" > 
+08:39:25.300 Sending API response: messageType:GetStepValueResponse messageId:222 stepValueResponse:<stepValue:<stepValue:"{} appears within {} seconds" parameterizedStepValue:"<element> appears within <wait_time> seconds" parameters:"element" parameters:"wait_time" > > 
+08:39:25.301 Api Request Received: messageType:GetStepValueRequest messageId:60 stepValueRequest:<stepText:"Enter <data> into <element>" > 
+08:39:25.301 Sending API response: messageType:GetStepValueResponse messageId:60 stepValueResponse:<stepValue:<stepValue:"Enter {} into {}" parameterizedStepValue:"Enter <data> into <element>" parameters:"data" parameters:"element" > > 
+08:39:25.302 Api Request Received: messageType:GetStepValueRequest messageId:132 stepValueRequest:<stepText:"Click <element>" > 
+08:39:25.302 Sending API response: messageType:GetStepValueResponse messageId:132 stepValueResponse:<stepValue:<stepValue:"Click {}" parameterizedStepValue:"Click <element>" parameters:"element" > > 

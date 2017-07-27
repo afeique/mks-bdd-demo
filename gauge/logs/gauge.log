@@ -7538,3 +7538,374 @@ Total time taken: 9.559s
 11:00:15.538 Scenarios:	1 executed	1 passed	0 failed	0 skipped
 11:00:15.538 
 Total time taken: 21.614s
+17:13:52.957 Gauge Install ID: 9ca66a3a-d1ac-4fcb-a7f1-0bf5793be01b
+17:13:53.331 Runner connection error: Runner with pid 3176 quit unexpectedly(exit status 1).
+17:13:53.331 Error while killing runner: invalid argument
+17:13:53.331 Failed to start gauge API: Runner with pid 3176 quit unexpectedly(exit status 1).
+17:14:40.948 Gauge Install ID: 9ca66a3a-d1ac-4fcb-a7f1-0bf5793be01b
+17:14:41.157 Runner connection error: Runner with pid 11608 quit unexpectedly(exit status 1).
+17:14:41.157 Error while killing runner: invalid argument
+17:14:41.157 Failed to start gauge API: Runner with pid 11608 quit unexpectedly(exit status 1).
+17:14:58.319 Gauge Install ID: 9ca66a3a-d1ac-4fcb-a7f1-0bf5793be01b
+17:14:58.557 Runner connection error: Runner with pid 2156 quit unexpectedly(exit status 1).
+17:14:58.557 Error while killing runner: invalid argument
+17:14:58.557 Failed to start gauge API: Runner with pid 2156 quit unexpectedly(exit status 1).
+08:33:09.865 Gauge Install ID: 9ca66a3a-d1ac-4fcb-a7f1-0bf5793be01b
+08:33:10.607 Checking updates...
+08:33:10.614 [ValidationError] C:\bdd-demo\gauge\specs\websearch.spec:14 Step implementation not found => 'Visit "google.com"'
+08:33:10.614 [ValidationError] C:\bdd-demo\gauge\specs\websearch.spec:23 Step implementation not found => 'Look for "Google in Title"'
+08:33:10.614 [ValidationError] C:\bdd-demo\gauge\specs\websearch.spec:24 Step implementation not found => 'Look for "Google Search Field"'
+08:33:10.614 [ValidationError] C:\bdd-demo\gauge\specs\websearch.spec:25 Step implementation not found => 'Look for "Google Search Button"'
+08:33:10.614 [ValidationError] C:\bdd-demo\gauge\specs\websearch.spec:34 Step implementation not found => 'Enter <search_terms> into "Google Search Field"'
+08:33:10.614 [ValidationError] C:\bdd-demo\gauge\specs\websearch.spec:35 Step implementation not found => 'Click "Google Search Icon Button"'
+08:33:10.614 [ValidationError] C:\bdd-demo\gauge\specs\websearch.spec:36 Step implementation not found => '"Google Result Stats" appears within "5" seconds'
+08:33:10.752 # Vowel Tests
+08:33:10.753 ## Vowel counts in a single word
+08:33:10.754 * Vowels in English language are "aeiou".
+
+08:33:10.755 * The word "gauge" has "3" vowels.
+
+08:33:10.757 ## Vowel counts in multiple words
+08:33:10.758 * Vowels in English language are "aeiou".
+
+08:33:10.760 * Almost all words have vowels 
+
+     |Word   |Vowel Count|
+     |-------|-----------|
+     |Heading|3          |
+     |Gauge  |3          |
+     |Mingle |2          |
+     |Snap   |1          |
+     |GoCD   |1          |
+     |Rhythm |0          |
+08:33:10.864 Plugin [Html Report] with pid [9960] has exited
+08:33:10.964 Specifications:	2 executed	2 passed	0 failed	0 skipped
+08:33:10.964 Scenarios:	2 executed	2 passed	0 failed	2 skipped
+08:33:10.964 
+Total time taken: 149ms
+08:34:00.523 Gauge Install ID: 9ca66a3a-d1ac-4fcb-a7f1-0bf5793be01b
+08:34:00.955 Checking updates...
+08:34:01.473 # Vowel Tests
+08:34:05.262 ## Vowel counts in a single word
+08:34:05.264 * Vowels in English language are "aeiou".
+
+08:34:05.267 * The word "gauge" has "3" vowels.
+
+08:34:05.271 ## Vowel counts in multiple words
+08:34:05.273 * Vowels in English language are "aeiou".
+
+08:34:05.276 * Almost all words have vowels 
+
+     |Word   |Vowel Count|
+     |-------|-----------|
+     |Heading|3          |
+     |Gauge  |3          |
+     |Mingle |2          |
+     |Snap   |1          |
+     |GoCD   |1          |
+     |Rhythm |0          |
+08:34:08.419 # Web Search
+08:34:12.178 ## User visits google.com
+08:34:12.179 * Visit "google.com"
+
+08:34:13.922 * Look for "Google in Title"
+08:34:13.944 * Look for "Google Search Field"
+08:34:13.968 * Look for "Google Search Button"
+
+08:34:13.990 
+     |search_terms   |
+     |---------------|
+     |MKS Instruments|
+08:34:13.990 ## User searches using google.com
+08:34:13.991 * Visit "google.com"
+
+08:34:14.363 * Enter <search_terms> into "Google Search Field"
+08:34:14.477 * Click "Google Search Icon Button"
+08:34:14.778 Failed Step: Click "Google Search Icon Button"
+08:34:14.778 Error Message: Message: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64)
+08:34:14.778 Specification: specs\websearch.spec:35
+08:34:14.778 Stacktrace: 
+Traceback (most recent call last):
+  File "C:\conda3\lib\site-packages\getgauge\executor.py", line 41, in execute_method
+    func(*params)
+  File "C:\bdd-demo\gauge\step_impl\websearch.py", line 86, in test_click_element
+    e.click()
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 77, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 493, in _execute
+    return self._parent.execute(command, params)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 256, in execute
+    self.error_handler.check_response(response)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+08:34:14.778 
+     |search_terms      |
+     |------------------|
+     |RF Power Generator|
+08:34:14.778 ## User searches using google.com
+08:34:14.779 * Visit "google.com"
+
+08:34:15.065 * Enter <search_terms> into "Google Search Field"
+08:34:15.177 * Click "Google Search Icon Button"
+08:34:15.453 Failed Step: Click "Google Search Icon Button"
+08:34:15.453 Error Message: Message: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64)
+08:34:15.453 Specification: specs\websearch.spec:35
+08:34:15.453 Stacktrace: 
+Traceback (most recent call last):
+  File "C:\conda3\lib\site-packages\getgauge\executor.py", line 41, in execute_method
+    func(*params)
+  File "C:\bdd-demo\gauge\step_impl\websearch.py", line 86, in test_click_element
+    e.click()
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 77, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 493, in _execute
+    return self._parent.execute(command, params)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 256, in execute
+    self.error_handler.check_response(response)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+08:34:15.454 
+     |search_terms                                    |
+     |------------------------------------------------|
+     |PECVD plasma enhanced chemical vapour deposition|
+08:34:15.454 ## User searches using google.com
+08:34:15.454 * Visit "google.com"
+
+08:34:15.813 * Enter <search_terms> into "Google Search Field"
+08:34:16.082 * Click "Google Search Icon Button"
+08:34:16.325 Failed Step: Click "Google Search Icon Button"
+08:34:16.325 Error Message: Message: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64)
+08:34:16.325 Specification: specs\websearch.spec:35
+08:34:16.325 Stacktrace: 
+Traceback (most recent call last):
+  File "C:\conda3\lib\site-packages\getgauge\executor.py", line 41, in execute_method
+    func(*params)
+  File "C:\bdd-demo\gauge\step_impl\websearch.py", line 86, in test_click_element
+    e.click()
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 77, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 493, in _execute
+    return self._parent.execute(command, params)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 256, in execute
+    self.error_handler.check_response(response)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+08:34:19.607 Plugin [Html Report] with pid [12320] has exited
+08:34:19.707 Specifications:	2 executed	1 passed	1 failed	0 skipped
+08:34:19.707 Scenarios:	4 executed	3 passed	1 failed	0 skipped
+08:34:19.707 
+Total time taken: 18.157s
+08:34:19.707 Updates are available. Run gauge --check-updates for more info.
+08:34:38.993 Gauge Install ID: 9ca66a3a-d1ac-4fcb-a7f1-0bf5793be01b
+08:34:39.819 # Web Search
+08:34:41.289 Checking updates...
+08:34:43.582 ## User visits google.com
+08:34:43.583 * Visit "google.com"
+
+08:34:46.488 * Look for "Google in Title"
+08:34:46.511 * Look for "Google Search Field"
+08:34:46.533 * Look for "Google Search Button"
+
+08:34:46.560 
+     |search_terms   |
+     |---------------|
+     |MKS Instruments|
+08:34:46.560 ## User searches using google.com
+08:34:46.561 * Visit "google.com"
+
+08:34:46.982 * Enter <search_terms> into "Google Search Field"
+08:34:47.140 * Click "Google Search Icon Button"
+08:34:47.395 Failed Step: Click "Google Search Icon Button"
+08:34:47.395 Error Message: Message: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64)
+08:34:47.395 Specification: specs\websearch.spec:35
+08:34:47.395 Stacktrace: 
+Traceback (most recent call last):
+  File "C:\conda3\lib\site-packages\getgauge\executor.py", line 41, in execute_method
+    func(*params)
+  File "C:\bdd-demo\gauge\step_impl\websearch.py", line 86, in test_click_element
+    e.click()
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 77, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 493, in _execute
+    return self._parent.execute(command, params)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 256, in execute
+    self.error_handler.check_response(response)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+08:34:47.395 
+     |search_terms      |
+     |------------------|
+     |RF Power Generator|
+08:34:47.395 ## User searches using google.com
+08:34:47.396 * Visit "google.com"
+
+08:34:47.819 * Enter <search_terms> into "Google Search Field"
+08:34:47.936 * Click "Google Search Icon Button"
+08:34:48.178 Failed Step: Click "Google Search Icon Button"
+08:34:48.178 Error Message: Message: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64)
+08:34:48.178 Specification: specs\websearch.spec:35
+08:34:48.178 Stacktrace: 
+Traceback (most recent call last):
+  File "C:\conda3\lib\site-packages\getgauge\executor.py", line 41, in execute_method
+    func(*params)
+  File "C:\bdd-demo\gauge\step_impl\websearch.py", line 86, in test_click_element
+    e.click()
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 77, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 493, in _execute
+    return self._parent.execute(command, params)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 256, in execute
+    self.error_handler.check_response(response)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+08:34:48.178 
+     |search_terms                                    |
+     |------------------------------------------------|
+     |PECVD plasma enhanced chemical vapour deposition|
+08:34:48.178 ## User searches using google.com
+08:34:48.179 * Visit "google.com"
+
+08:34:48.638 * Enter <search_terms> into "Google Search Field"
+08:34:48.873 * Click "Google Search Icon Button"
+08:34:49.108 Failed Step: Click "Google Search Icon Button"
+08:34:49.108 Error Message: Message: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64)
+08:34:49.108 Specification: specs\websearch.spec:35
+08:34:49.108 Stacktrace: 
+Traceback (most recent call last):
+  File "C:\conda3\lib\site-packages\getgauge\executor.py", line 41, in execute_method
+    func(*params)
+  File "C:\bdd-demo\gauge\step_impl\websearch.py", line 86, in test_click_element
+    e.click()
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 77, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 493, in _execute
+    return self._parent.execute(command, params)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 256, in execute
+    self.error_handler.check_response(response)
+  File "C:\conda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+08:34:52.242 # Vowel Tests
+08:34:56.005 ## Vowel counts in a single word
+08:34:56.006 * Vowels in English language are "aeiou".
+
+08:34:56.007 * The word "gauge" has "3" vowels.
+
+08:34:56.009 ## Vowel counts in multiple words
+08:34:56.009 * Vowels in English language are "aeiou".
+
+08:34:56.010 * Almost all words have vowels 
+
+     |Word   |Vowel Count|
+     |-------|-----------|
+     |Heading|3          |
+     |Gauge  |3          |
+     |Mingle |2          |
+     |Snap   |1          |
+     |GoCD   |1          |
+     |Rhythm |0          |
+08:34:59.236 Plugin [Html Report] with pid [11616] has exited
+08:34:59.336 Specifications:	2 executed	1 passed	1 failed	0 skipped
+08:34:59.336 Scenarios:	4 executed	3 passed	1 failed	0 skipped
+08:34:59.336 
+Total time taken: 19.433s
+08:34:59.336 Updates are available. Run gauge --check-updates for more info.
+08:36:00.185 Gauge Install ID: 9ca66a3a-d1ac-4fcb-a7f1-0bf5793be01b
+08:36:00.688 Checking updates...
+08:36:01.456 Gauge     		0.9.0     	Download the installer from http://getgauge.io/get-started/
+08:39:24.597 Gauge Install ID: 9ca66a3a-d1ac-4fcb-a7f1-0bf5793be01b
+08:39:24.600 The following specifications satisfy filter criteria:
+08:39:24.600 specs\websearch.spec
+08:39:25.052 Checking updates...
+08:39:25.441 # Web Search
+08:39:29.158 ## User visits google.com
+08:39:29.159 * Visit "google.com"
+
+08:39:31.555 * Look for "Google in Title"
+08:39:31.583 * Look for "Google Search Field"
+08:39:31.604 * Look for "Google Search Button"
+
+08:39:41.894 Failed Step: Look for "Google Search Button"
+08:39:41.894 Error Message: local variable 'e' referenced before assignment
+08:39:41.894 Specification: specs\websearch.spec:25
+08:39:41.894 Stacktrace: 
+Traceback (most recent call last):
+  File "C:\conda3\lib\site-packages\getgauge\executor.py", line 41, in execute_method
+    func(*params)
+  File "C:\bdd-demo\gauge\step_impl\websearch.py", line 63, in test_find_element
+    assert isinstance(e, WebElement) is True
+UnboundLocalError: local variable 'e' referenced before assignment
+08:39:41.895 
+     |search_terms   |
+     |---------------|
+     |MKS Instruments|
+08:39:41.895 ## User searches using google.com
+08:39:41.896 * Visit "google.com"
+
+08:39:42.196 * Enter <search_terms> into "Google Search Field"
+08:39:42.307 * Click "Google Search Button"
+08:39:43.911 * "Google Result Stats" appears within "5" seconds
+08:39:43.938 
+     |search_terms      |
+     |------------------|
+     |RF Power Generator|
+08:39:43.938 ## User searches using google.com
+08:39:43.939 * Visit "google.com"
+
+08:39:44.203 * Enter <search_terms> into "Google Search Field"
+08:39:44.458 * Click "Google Search Button"
+08:39:46.144 * "Google Result Stats" appears within "5" seconds
+08:39:46.163 
+     |search_terms                                    |
+     |------------------------------------------------|
+     |PECVD plasma enhanced chemical vapour deposition|
+08:39:46.163 ## User searches using google.com
+08:39:46.164 * Visit "google.com"
+
+08:39:46.468 * Enter <search_terms> into "Google Search Field"
+08:39:46.730 * Click "Google Search Button"
+08:39:47.856 * "Google Result Stats" appears within "5" seconds
+08:39:51.130 Plugin [Html Report] with pid [10764] has exited
+08:39:51.230 Specifications:	1 executed	0 passed	1 failed	0 skipped
+08:39:51.230 Scenarios:	2 executed	1 passed	1 failed	0 skipped
+08:39:51.230 
+Total time taken: 25.719s
+08:39:51.230 Updates are available. Run gauge --check-updates for more info.
+08:40:30.125 Gauge Install ID: 9ca66a3a-d1ac-4fcb-a7f1-0bf5793be01b
+08:40:30.721 Checking updates...
+08:40:31.346 Gauge     		0.9.0     	Download the installer from http://getgauge.io/get-started/

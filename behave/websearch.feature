@@ -13,7 +13,7 @@ Feature: Web search using Chrome
     Scenario Outline: User searches using Google
         Given I visit google.com
         When I enter <search terms> into Google Search Field
-        And I click Google Search Icon Button
+        And I click Google Search Button
         Then Google Result Stats appears within 5 seconds
 
         Examples: Simple Searches

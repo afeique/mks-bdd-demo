@@ -1,1 +1,1 @@
-var index = {"Tags":{"visit google":["specs\\websearch.html"]},"Specs":{"Web Search":["specs\\websearch.html"]}};
+var index = {"Tags":{"google search":["specs\\websearch.html"],"visit google":["specs\\websearch.html"],"websearch":["specs\\websearch.html"]},"Specs":{"Web Search":["specs\\websearch.html"]}};

@@ -6,6 +6,7 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.keys import Keys
 
 import re
 
@@ -23,7 +24,7 @@ def english_to_xpath(english):
         'google-in-title': "/html/head/title[contains(.,'Google')]",
         'google-search-field': "//input[@name='q' and @value='']",
         'google-search-box': "//input[@name='q' and @value='']",
-        'google-search-button': "//input[@value='Google Search' and @type='submit']",
+        'google-search-button': "//input[@value='Google Search' and @type='button' or @value='Google Search' and @type='submit']",
         'google-search-icon-button': "//button[@value='Search' and @aria-label='Google Search']",
         'google-result-stats': "//div[@id='resultStats']",
         'google-result-statistics': "//div[@id='resultStats']"
@@ -55,29 +56,35 @@ def test_visit_url(url):
 
 @step('Look for <element>')
 def test_find_element(element):
+    e = False
     xpath = english_to_xpath(element)
     try:
         e = context.driver.find_element_by_xpath(xpath)
     except:
-        Messages.write_message('Could not find element with xpath "%s"' % xpath)
-    assert isinstance(e, WebElement) is True
+        print('Could not find element with xpath "%s"' % xpath)
+        assert False
+    if e:
+        assert isinstance(e, WebElement) is True
     return e
 
 @step('<element> appears within <wait_time> seconds')
 def test_wait_for_element(element, wait_time):
+    e = False
     xpath = english_to_xpath(element)
     try:
         e = WebDriverWait(context.driver, float(wait_time)).until(EC.presence_of_element_located((By.XPATH, xpath)))
     except:
-        Messages.write_message('Could not find element with xpath "%s"' % xpath)
-    assert isinstance(e, WebElement) is True
+        print('Could not find element with xpath "%s"' % xpath)
+        assert False
+    if e:
+        assert isinstance(e, WebElement) is True
     return e
 
 
 @step('Enter <data> into <element>')
 def test_enter_data_into_element(data, element):
     e = test_find_element(element)
-    e.send_keys(data)
+    e.send_keys(data + Keys.ESCAPE)
     assert e.get_attribute('value') == data
 
 @step('Click <element>')
